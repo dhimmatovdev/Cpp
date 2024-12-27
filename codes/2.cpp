@@ -18,7 +18,6 @@ int main() {
         scores.push_back(score);
         
     }
-    
     // Hisoblash
     int max_Score = *max_element(scores.begin(), scores.end());
     int min_Score = *min_element(scores.begin(), scores.end());
