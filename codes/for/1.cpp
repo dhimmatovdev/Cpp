@@ -8,5 +8,6 @@ int main() {
         sum=sum+i;
     }
     cout<< "yig'indi: "<<sum<<endl;
+    
     return 0;
 }
