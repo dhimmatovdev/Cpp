@@ -81,3 +81,11 @@ int main() {
     return 0;
 }
 
+/*
+Enumdan Foydalanishning Afzalliklari
+Kod o‘qilishi yaxshilanadi: Onlayn, Kutmoqda kabi nomlar raqamli qiymatlarga qaraganda aniqroq.
+Xatolar kamayadi: Faqat belgilangan qiymatlardan foydalanish talab qilinadi.
+Qattiq tip nazorati: enum class boshqa turlar bilan noto‘g‘ri ishlashni oldini oladi.
+Kengaytirish qulayligi: Yangi qiymatlar qo‘shishda dastur arxitekturasi buzilmaydi.
+*/
+
