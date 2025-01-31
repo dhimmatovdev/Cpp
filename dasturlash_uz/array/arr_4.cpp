@@ -10,5 +10,16 @@ using namespace std;
 int main() {
     int arr[]={6, 25, 91, 23, 72, 9, 18, 6};
     int size = sizeof(arr)/sizeof(arr[0]);
+    bool found = false;
+    int n;
+    cin>>n;
+    for(int i = 0; i<size; i++) {
+        if (arr[i]==n) {
+            found=true;
+            break;
+        }
+    }
+    cout<<found;
+    return 0;
     
 }
