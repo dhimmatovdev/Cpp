@@ -19,10 +19,9 @@ int main() {
     newArr[0]=n;
     // Eski massivni yangi massivga nusxalash
     for (int i = 0; i<size; i++) {
-        newArr[i]=arr[i];
+        newArr[i+1]=arr[i];
     }
-    // Yangi elementni qo'shish
-    newArr[0]=n;
+
     // Ynagi massivni chiqarish
     for (int i = 0; i<newSize; i++) {
         cout<<newArr[i]<<" ";
