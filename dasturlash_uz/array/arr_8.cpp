@@ -21,7 +21,6 @@ int main() {
     for (int i = 0; i<size; i++) {
         newArr[i+1]=arr[i];
     }
-
     // Ynagi massivni chiqarish
     for (int i = 0; i<newSize; i++) {
         cout<<newArr[i]<<" ";
