@@ -17,6 +17,9 @@ int main() {
     cout << cars.front() << endl;
     cout << cars.back() << endl;
     cout << cars.at(10) << endl;
-    
+    cout << cars.empty() << endl;
+    for (int i = 0; i < cars.size(); i++) {
+  cout << cars[i] << "\n";
+}
 
 }   
