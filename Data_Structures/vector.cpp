@@ -11,4 +11,10 @@ int main() {
         cout << car << " ";
     }
     cout << endl;
-}
+    cout << cars[5] << endl;
+    cout << cars.size() << endl;
+    cout << cars.front() << endl;
+    cout << cars.back() << endl;
+    cout << cars.at(10) << endl;
+    
+}   
