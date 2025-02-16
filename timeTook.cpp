@@ -13,6 +13,5 @@ int main() {
     auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
 
     std::cout << "C++ bajarilish vaqti: " << elapsed_time.count() << " ms" << std::endl;
-
     return 0;
 }
